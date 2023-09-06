@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style>
+        /* Center-align the content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Style the list container */
+        .list-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Right-align the top-level list items */
+        .list-container > ul > li {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="list-container">
+        <h1>Menu</h1>
+        <ul>
+            <li>Cold Drink
+                <ul>
+                    <li>Fresh Juice</li>
+                    <li>Soft Drink</li>
+                </ul>
+            </li>
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>Black Tea</li>
+                    <li>Boba Tea</li>
+                    <li>Green Tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+</body>
+</html>
